@@ -1,0 +1,31 @@
+This is your new Play 2.1 application
+=====================================
+
+This file will be packaged with your application, when using `play dist`.
+
+
+I'm attempting to get an introduction to the Play framework, and Scala programming language.
+
+This code is from the Tutorial http://www.playframework.com/documentation/2.1.x/ScalaTodoList
+
+http://www.playframework.com/documentation/2.1.x/ScalaHome
+
+
+Goals:
+
+1) complete the Tutorial, and have a working Play/Scala app for a Todo List
+
+2) build tests with the Play framework
+    verify small unit tests can be built
+    verify medium tests of two components and/or a mock object can be built
+    verify large tests cam be built running against a headless browser, and a interactive browser
+    verify large tests can be run against Selenium grid, and Internet Explorer
+
+Test frameworks to try:
+    Play framework
+    Specs2
+    FluentLenium
+    ScalaTest 1.6.1
+
+Document results
+
