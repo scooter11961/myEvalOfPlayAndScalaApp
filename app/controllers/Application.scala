@@ -30,6 +30,7 @@ object Application extends Controller {
     )
   }
 
+  //def deleteTask(id: Long) = TODO
 
   val taskForm = Form(
     "label" -> nonEmptyText

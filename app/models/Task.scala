@@ -9,6 +9,8 @@ import anorm.SqlParser._
 object Task {
 
   //def all(): List[Task] = Nil
+  //def create(label: String) {}
+  //def delete(id: Long) {}
   def all(): List[Task] = DB.withConnection{
     implicit c => SQL("select * from task").as(task *)
   }
