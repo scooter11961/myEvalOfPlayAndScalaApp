@@ -30,13 +30,14 @@ object Application extends Controller {
     )
   }
 
-  def deleteTask(id: Long) = TODO
-
 
   val taskForm = Form(
     "label" -> nonEmptyText
   )
 
-
+  def deleteTask(id: Long) = Action {
+    Task.delete(id)
+    Redirect(routes.Application.tasks)
+  }
 
 }
